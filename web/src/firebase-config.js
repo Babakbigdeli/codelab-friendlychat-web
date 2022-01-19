@@ -1,13 +1,12 @@
-/**
- * To find your Firebase config object:
- * 
- * 1. Go to your [Project settings in the Firebase console](https://console.firebase.google.com/project/_/settings/general/)
- * 2. In the "Your apps" card, select the nickname of the app for which you need a config object.
- * 3. Select Config from the Firebase SDK snippet pane.
- * 4. Copy the config object snippet, then add it here.
- */
+
 const config = {
-  /* TODO: ADD YOUR FIREBASE CONFIGURATION OBJECT HERE */
+  apiKey: "AIzaSyA-Qpxqy4Tj1qHuQVLTRLERLkresQ7by1g",
+  authDomain: "friendlychat-ad80c.firebaseapp.com",
+  projectId: "friendlychat-ad80c",
+  storageBucket: "friendlychat-ad80c.appspot.com",
+  messagingSenderId: "149870784128",
+  appId: "1:149870784128:web:cef61c8f775a4a6bd54065",
+  measurementId: "G-98EZZ7PB2F"
 };
 
 export function getFirebaseConfig() {
